@@ -1,0 +1,28 @@
+[project]
+name = "GMVAE"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Mateusz Kapusta", email = "mr.kapusta@student.uw.edu.pl" }
+]
+dependencies = [
+    "matplotlib",
+    "torch>=2.0",
+    "anndata",
+    "scikit-learn",
+    "seaborn",
+    "tqdm",
+    "scanpy",
+    "scib",
+    "rpy2",
+    "anndata2ri",
+]
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
