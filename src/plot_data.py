@@ -15,7 +15,7 @@ def plot_heatmap(data):
     ax.set_ylabel("Features")
     ax.set_xlabel("Observations")
     plt.tight_layout()
-    plt.savefig("heatmap.png", dpi=500, transparent=True)
+    plt.savefig("heatmap.png", dpi=500)
 
 
 data = an.read_h5ad("../data/GEX_train_data.h5ad")
